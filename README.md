@@ -1,12 +1,31 @@
 # Git Knowledge
-This project experiments with using git as a knowledge system.
+This project experiments with using git as a knowledge system. It uses two tiers of git repos.
+* [git-notes](https://github.com/digitalreplica/git-notes): repo of notes about a particular topic.
+* [git-knowledge](https://github.com/digitalreplica/git-knowledge): repo linking similar topics
 
-# Architecture
-Git Knowledge uses two tiers of git repos.
-* Git Notes: repo of notes about a particular topic.
-* Git Knowledge: repo linking similar topics
+There are two ways to link repos together. This project explores both.
 
-# Repo structure
+##  Markdown links
+Simple markdown links are the easiest way to tie related git-notes topics together. This can be part of a note, or a more automated collection of repos that automatically create markdown links.
+
+## Git Submodules
+Though rarely used today, git has a built-in system to link repositories together, called submodules. One repo includes another repo in a subdirectory, and git manages the complexity of knowing which files belong to each repo, and keeping them all updated.
+
+# How to use it
+Knowledge is about mixing together common concepts in a cohesive way. A person may need one or many knowledge repos to group together different views of underlying notes.
+
+## All my notes
+This is the most common use-case, to link together all the different git-notes repos.
+
+## Shared notes
+People or groups may want to share notes. This could one individual sharing their notes, or a group contributing to a common set of notes. Other interested people can include these notes into their personal knowledge repos, reference them as needed, and even watch as new updates come in.
+
+# Automation
+Automation is a natural fit here.
+
+# Reference
+
+## Repo structure
 * Readme.md: File generated from Readme-template.md and all linked topics
 * Readme-template.md: template describing the purpose of this knowledge repository
 * repos.txt: text file listing knowledge and notes repos that make up this knowledgebase
@@ -24,7 +43,7 @@ This file is used to periodically refresh all git-notes repos. It also generates
 ## Git submodules
 Each git-notes repo is cloned as a git submodule, pulling together a single view of all notes
 
-# Repo Automation
+## Repo Automation
 ```
 On Daily
     Process repos.txt
