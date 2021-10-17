@@ -72,3 +72,14 @@ Is it possible to set Github UI settings for a repo via code? About, topics, web
 # Notes
 * The git submodule recursive flag should be used cautiously. One git-notes repo can include other git-notes repos. Deeply nested topics might end up including thousands of repos.
 * Is there any way to link a submodule to a branch instead of a specific commit?
+
+# Organization
+
+## Recall is everything
+The most important thing is asking, "What will I need to remember in order to find this again?" Can the idea be refined down to a single word? Two words? That is how repos and files should be named.
+
+## One Repo per Concept
+Each git-notes repo should encompass a single concept, containing all notes pertaining to that concept. At first, this can be a simple repo like my-notes. But people are multifacted, so as notes grow, it can be helpful to split notes into additional repos. Keeping each repo focused on a specific topic helps to know where to put notes, and where to find them.
+
+## Don't over organize
+Organization is an organic, evolving process. It's going to take multiple attempts and many changes to get it right. Following the principals of larger, fewer files and succinct recall keywords lets that happen with the least disruption.
