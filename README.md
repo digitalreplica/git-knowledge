@@ -1,8 +1,16 @@
 # Git Knowledge
-This project experiments with using git as a knowledge system. It uses two tiers of git repos.
-* [git-notes](https://github.com/digitalreplica/git-notes): repo of notes about a particular topic.
-* [git-knowledge](https://github.com/digitalreplica/git-knowledge): repo linking similar topics
+Git-knowledge extends the [git-notes](https://github.com/digitalreplica/git-notes) system, exploring ways to link repositories of notes together into larger knowledge systems.
 
+Problem statement: As a human, I want a system to store all my knowledge in digital form, so I can quickly find it, and share parts of it with others.
+
+## Why
+* One repo can't store everything. Even with a basic set of public and private notes, one has to grapple with which notes go where.
+* People may only be interested in notes on certain topics. By separating notes into different topics, it is easier to share them with interested people.
+* Integrating other's notes. You may want to integrate other people's live, evolving notes into your own knowledge system.
+* Group notes. If multiple people contribute to a single notes repository, all will want to add it into their knowledge system.
+* Memory recall. [Git-notes](https://github.com/digitalreplica/git-notes) is a free-form structure. To be able to find any tidbit of knowledge about any topic requires a more structured organization system.
+
+# Basic usage
 There are two ways to link repos together. This project explores both.
 
 ##  Markdown links
