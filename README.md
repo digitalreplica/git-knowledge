@@ -83,6 +83,19 @@ Is it possible to set Github UI settings for a repo via code? About, topics, web
 
 # Organization
 
+## Levels
+Levels of organization, growing larger as new information is added.
+* Heading inside document
+* Document
+* Folder
+* Repo
+
+## Releases
+Git releases mark major milestones. Might apply to note repos to show:
+* Major turning points like a project complete
+* Dates, such as the beginning of each year, so one might see how knowledge and interests change over time.
+
+
 ## Recall is everything
 The most important thing is asking, "What will I need to remember in order to find this again?" Can the idea be refined down to a single word? Two words? That is how repos and files should be named.
 
