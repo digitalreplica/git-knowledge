@@ -1,5 +1,5 @@
 # Git Knowledge
-Git-knowledge extends the [git-notes](https://github.com/digitalreplica/git-notes) system, exploring ways to link repositories of notes together into larger knowledge systems.
+The Git Knowledge curation system extends the [git-notes](https://github.com/digitalreplica/git-notes) system, exploring ways to link repositories of notes together into larger knowledge systems.
 
 Problem statement: As a human, I want a system to store all my knowledge in digital form, so I can quickly find it, and share parts of it with others.
 
